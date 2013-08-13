@@ -131,6 +131,7 @@ public class GeoBroker extends CordovaPlugin {
             this.gpsListener.destroy();
             this.gpsListener = null;
         }
+        this.locationManager = null;
     }
 
     /**
